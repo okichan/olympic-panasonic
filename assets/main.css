@@ -10,9 +10,12 @@ h1 {
 }
 
 p {
-  max-width: 750px;
-  margin: 0 auto 0 auto;
+  max-width: 880px;
+  padding: 0px 30px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 24px;
+  line-height: 152%;
 }
 
 h2 {
@@ -27,7 +30,7 @@ h2 {
   display: inline;
   max-width: 150px;
 }
-figure {
+.body-img figure {
   text-align: center;
 }
 
@@ -56,7 +59,7 @@ figure {
 }
 
 .topnav a:hover {
-  background-color: #999;
+  text-shadow: 4px 4px 4px rgba(78, 74, 71, 1);
   text-decoration: none;
   color: #fff;
   /* padding-bottom: 14px; */
@@ -64,6 +67,106 @@ figure {
 
 .topnav .icon {
   display: none;
+}
+
+
+
+.slider {
+  max-width: 760px;
+  /* height: 560px; */
+  margin: 2em auto;
+  overflow: hidden;
+  height: 210px;
+}
+
+.slider figure div {
+  width: 20%;
+  float: left;
+}
+
+.slider figure img {
+  width: 100%;
+  float: left;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 30s slidy infinite;
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+
+  10% {
+    left: 0%;
+  }
+
+  12% {
+    left: -100%;
+  }
+
+  22% {
+    left: -100%;
+  }
+
+  24% {
+    left: -200%;
+  }
+
+  34% {
+    left: -200%;
+  }
+
+  36% {
+    left: -300%;
+  }
+
+  46% {
+    left: -300%;
+  }
+
+  48% {
+    left: -400%;
+  }
+
+  58% {
+    left: -400%;
+  }
+
+  60% {
+    left: -300%;
+  }
+
+  70% {
+    left: -300%;
+  }
+
+  72% {
+    left: -200%;
+  }
+
+  82% {
+    left: -200%;
+  }
+
+  84% {
+    left: -100%;
+  }
+
+  94% {
+    left: -100%;
+  }
+
+  96% {
+    left: 0%;
+  }
+
+  
 }
 
 @media screen and (min-width: 601px) {
@@ -119,6 +222,7 @@ figure {
     background-color: transparent;
     text-decoration: none;
     color: #0142C2;
+    text-shadow: 4px 4px 4px rgba(255, 74, 57, 0);
   }
   .logo-pana-body {
     display: none;
@@ -134,6 +238,13 @@ figure {
   p {
     max-width: 350px;
     margin: 0 auto 0 auto;
+    font-size: 17px;
   }
 }
+
+
+
+
+
+
 
